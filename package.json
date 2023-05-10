@@ -1,0 +1,15 @@
+{
+  "name": "belajar-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "tsc": "del build/ && tsc",
+    "ts": "del -f build && tsc -w",
+    "dev": "nodemon ./build/genericClass.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "typescript": "^5.0.2"
+  }
+}
